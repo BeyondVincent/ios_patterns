@@ -3,4 +3,6 @@ ios_patterns
 
 在iOS中实现设计模式
 
-未完成
+更新日志：
+2013.05.09 完成SingletonPattern
+2013.05.06 完成ObserverPattern
