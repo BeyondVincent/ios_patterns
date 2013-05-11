@@ -6,5 +6,4 @@ ios_patterns
 更新日志：
 
 2013.05.09 完成SingletonPattern
-
 2013.05.06 完成ObserverPattern
