@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF9DE2D21743B94B00329FA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9DE2D11743B94B00329FA5 /* UIKit.framework */; };
+		DF9DE2D41743B94B00329FA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9DE2D31743B94B00329FA5 /* Foundation.framework */; };
+		DF9DE2D61743B94B00329FA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9DE2D51743B94B00329FA5 /* CoreGraphics.framework */; };
+		DF9DE2DC1743B94B00329FA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF9DE2DA1743B94B00329FA5 /* InfoPlist.strings */; };
+		DF9DE2DE1743B94B00329FA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9DE2DD1743B94B00329FA5 /* main.m */; };
+		DF9DE2E21743B94B00329FA5 /* BVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9DE2E11743B94B00329FA5 /* BVAppDelegate.m */; };
+		DF9DE2E41743B94B00329FA5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9DE2E31743B94B00329FA5 /* Default.png */; };
+		DF9DE2E61743B94B00329FA5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9DE2E51743B94B00329FA5 /* Default@2x.png */; };
+		DF9DE2E81743B94B00329FA5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9DE2E71743B94B00329FA5 /* Default-568h@2x.png */; };
+		DF9DE2EB1743B94B00329FA5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9DE2E91743B94B00329FA5 /* MainStoryboard.storyboard */; };
+		DF9DE2EE1743B94B00329FA5 /* BVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9DE2ED1743B94B00329FA5 /* BVViewController.m */; };
+		DF9DE2F61743BF7600329FA5 /* BVShape.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9DE2F51743BF7600329FA5 /* BVShape.m */; };
+		DF9DE2F91743C22A00329FA5 /* BVClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9DE2F81743C22A00329FA5 /* BVClient.m */; };
+		DF9DE2FC1743C8A200329FA5 /* BVCircleShape.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9DE2FB1743C8A200329FA5 /* BVCircleShape.m */; };
+		DF9DE3031743CB4C00329FA5 /* BVSquareShape.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9DE3021743CB4C00329FA5 /* BVSquareShape.m */; };
+		DF9DE3081743E42C00329FA5 /* BVShapeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9DE3071743E42C00329FA5 /* BVShapeFactory.m */; };
+		DF9DE30B1743E72C00329FA5 /* BVCircleShapeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9DE30A1743E72C00329FA5 /* BVCircleShapeFactory.m */; };
+		DF9DE30E1743E7DB00329FA5 /* BVSquareShapeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9DE30D1743E7DB00329FA5 /* BVSquareShapeFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF9DE2CE1743B94B00329FA5 /* FactoryMethodPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FactoryMethodPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9DE2D11743B94B00329FA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF9DE2D31743B94B00329FA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF9DE2D51743B94B00329FA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF9DE2D91743B94B00329FA5 /* FactoryMethodPattern-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FactoryMethodPattern-Info.plist"; sourceTree = "<group>"; };
+		DF9DE2DB1743B94B00329FA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF9DE2DD1743B94B00329FA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF9DE2DF1743B94B00329FA5 /* FactoryMethodPattern-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FactoryMethodPattern-Prefix.pch"; sourceTree = "<group>"; };
+		DF9DE2E01743B94B00329FA5 /* BVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BVAppDelegate.h; sourceTree = "<group>"; };
+		DF9DE2E11743B94B00329FA5 /* BVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BVAppDelegate.m; sourceTree = "<group>"; };
+		DF9DE2E31743B94B00329FA5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DF9DE2E51743B94B00329FA5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DF9DE2E71743B94B00329FA5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DF9DE2EA1743B94B00329FA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DF9DE2EC1743B94B00329FA5 /* BVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BVViewController.h; sourceTree = "<group>"; };
+		DF9DE2ED1743B94B00329FA5 /* BVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BVViewController.m; sourceTree = "<group>"; };
+		DF9DE2F41743BF7600329FA5 /* BVShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVShape.h; sourceTree = "<group>"; };
+		DF9DE2F51743BF7600329FA5 /* BVShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVShape.m; sourceTree = "<group>"; };
+		DF9DE2F71743C22A00329FA5 /* BVClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVClient.h; sourceTree = "<group>"; };
+		DF9DE2F81743C22A00329FA5 /* BVClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVClient.m; sourceTree = "<group>"; };
+		DF9DE2FA1743C8A200329FA5 /* BVCircleShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVCircleShape.h; sourceTree = "<group>"; };
+		DF9DE2FB1743C8A200329FA5 /* BVCircleShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVCircleShape.m; sourceTree = "<group>"; };
+		DF9DE3011743CB4C00329FA5 /* BVSquareShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVSquareShape.h; sourceTree = "<group>"; };
+		DF9DE3021743CB4C00329FA5 /* BVSquareShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVSquareShape.m; sourceTree = "<group>"; };
+		DF9DE3061743E42C00329FA5 /* BVShapeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVShapeFactory.h; sourceTree = "<group>"; };
+		DF9DE3071743E42C00329FA5 /* BVShapeFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVShapeFactory.m; sourceTree = "<group>"; };
+		DF9DE3091743E72C00329FA5 /* BVCircleShapeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVCircleShapeFactory.h; sourceTree = "<group>"; };
+		DF9DE30A1743E72C00329FA5 /* BVCircleShapeFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVCircleShapeFactory.m; sourceTree = "<group>"; };
+		DF9DE30C1743E7DB00329FA5 /* BVSquareShapeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVSquareShapeFactory.h; sourceTree = "<group>"; };
+		DF9DE30D1743E7DB00329FA5 /* BVSquareShapeFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVSquareShapeFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF9DE2CB1743B94B00329FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9DE2D21743B94B00329FA5 /* UIKit.framework in Frameworks */,
+				DF9DE2D41743B94B00329FA5 /* Foundation.framework in Frameworks */,
+				DF9DE2D61743B94B00329FA5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF9DE2C51743B94B00329FA5 = {
+			isa = PBXGroup;
+			children = (
+				DF9DE2D71743B94B00329FA5 /* FactoryMethodPattern */,
+				DF9DE2D01743B94B00329FA5 /* Frameworks */,
+				DF9DE2CF1743B94B00329FA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF9DE2CF1743B94B00329FA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF9DE2CE1743B94B00329FA5 /* FactoryMethodPattern.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF9DE2D01743B94B00329FA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF9DE2D11743B94B00329FA5 /* UIKit.framework */,
+				DF9DE2D31743B94B00329FA5 /* Foundation.framework */,
+				DF9DE2D51743B94B00329FA5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF9DE2D71743B94B00329FA5 /* FactoryMethodPattern */ = {
+			isa = PBXGroup;
+			children = (
+				DF9DE3041743CBCB00329FA5 /* Client */,
+				DF9DE2FD1743CAD400329FA5 /* Product */,
+				DF9DE3051743D62100329FA5 /* Creator */,
+				DF9DE2D81743B94B00329FA5 /* Supporting Files */,
+				DF9DE2DD1743B94B00329FA5 /* main.m */,
+			);
+			path = FactoryMethodPattern;
+			sourceTree = "<group>";
+		};
+		DF9DE2D81743B94B00329FA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF9DE2E01743B94B00329FA5 /* BVAppDelegate.h */,
+				DF9DE2E11743B94B00329FA5 /* BVAppDelegate.m */,
+				DF9DE2E91743B94B00329FA5 /* MainStoryboard.storyboard */,
+				DF9DE2EC1743B94B00329FA5 /* BVViewController.h */,
+				DF9DE2ED1743B94B00329FA5 /* BVViewController.m */,
+				DF9DE2D91743B94B00329FA5 /* FactoryMethodPattern-Info.plist */,
+				DF9DE2DA1743B94B00329FA5 /* InfoPlist.strings */,
+				DF9DE2DF1743B94B00329FA5 /* FactoryMethodPattern-Prefix.pch */,
+				DF9DE2E31743B94B00329FA5 /* Default.png */,
+				DF9DE2E51743B94B00329FA5 /* Default@2x.png */,
+				DF9DE2E71743B94B00329FA5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF9DE2FD1743CAD400329FA5 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				DF9DE2F41743BF7600329FA5 /* BVShape.h */,
+				DF9DE2F51743BF7600329FA5 /* BVShape.m */,
+				DF9DE2FA1743C8A200329FA5 /* BVCircleShape.h */,
+				DF9DE2FB1743C8A200329FA5 /* BVCircleShape.m */,
+				DF9DE3011743CB4C00329FA5 /* BVSquareShape.h */,
+				DF9DE3021743CB4C00329FA5 /* BVSquareShape.m */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		DF9DE3041743CBCB00329FA5 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				DF9DE2F71743C22A00329FA5 /* BVClient.h */,
+				DF9DE2F81743C22A00329FA5 /* BVClient.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		DF9DE3051743D62100329FA5 /* Creator */ = {
+			isa = PBXGroup;
+			children = (
+				DF9DE3061743E42C00329FA5 /* BVShapeFactory.h */,
+				DF9DE3071743E42C00329FA5 /* BVShapeFactory.m */,
+				DF9DE3091743E72C00329FA5 /* BVCircleShapeFactory.h */,
+				DF9DE30A1743E72C00329FA5 /* BVCircleShapeFactory.m */,
+				DF9DE30C1743E7DB00329FA5 /* BVSquareShapeFactory.h */,
+				DF9DE30D1743E7DB00329FA5 /* BVSquareShapeFactory.m */,
+			);
+			name = Creator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF9DE2CD1743B94B00329FA5 /* FactoryMethodPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF9DE2F11743B94B00329FA5 /* Build configuration list for PBXNativeTarget "FactoryMethodPattern" */;
+			buildPhases = (
+				DF9DE2CA1743B94B00329FA5 /* Sources */,
+				DF9DE2CB1743B94B00329FA5 /* Frameworks */,
+				DF9DE2CC1743B94B00329FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FactoryMethodPattern;
+			productName = FactoryMethodPattern;
+			productReference = DF9DE2CE1743B94B00329FA5 /* FactoryMethodPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF9DE2C61743B94B00329FA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BV;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = BeyondVincent;
+			};
+			buildConfigurationList = DF9DE2C91743B94B00329FA5 /* Build configuration list for PBXProject "FactoryMethodPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF9DE2C51743B94B00329FA5;
+			productRefGroup = DF9DE2CF1743B94B00329FA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF9DE2CD1743B94B00329FA5 /* FactoryMethodPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF9DE2CC1743B94B00329FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9DE2DC1743B94B00329FA5 /* InfoPlist.strings in Resources */,
+				DF9DE2E41743B94B00329FA5 /* Default.png in Resources */,
+				DF9DE2E61743B94B00329FA5 /* Default@2x.png in Resources */,
+				DF9DE2E81743B94B00329FA5 /* Default-568h@2x.png in Resources */,
+				DF9DE2EB1743B94B00329FA5 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF9DE2CA1743B94B00329FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9DE2DE1743B94B00329FA5 /* main.m in Sources */,
+				DF9DE2E21743B94B00329FA5 /* BVAppDelegate.m in Sources */,
+				DF9DE2EE1743B94B00329FA5 /* BVViewController.m in Sources */,
+				DF9DE2F61743BF7600329FA5 /* BVShape.m in Sources */,
+				DF9DE2F91743C22A00329FA5 /* BVClient.m in Sources */,
+				DF9DE2FC1743C8A200329FA5 /* BVCircleShape.m in Sources */,
+				DF9DE3031743CB4C00329FA5 /* BVSquareShape.m in Sources */,
+				DF9DE3081743E42C00329FA5 /* BVShapeFactory.m in Sources */,
+				DF9DE30B1743E72C00329FA5 /* BVCircleShapeFactory.m in Sources */,
+				DF9DE30E1743E7DB00329FA5 /* BVSquareShapeFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF9DE2DA1743B94B00329FA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF9DE2DB1743B94B00329FA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF9DE2E91743B94B00329FA5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF9DE2EA1743B94B00329FA5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF9DE2EF1743B94B00329FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF9DE2F01743B94B00329FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF9DE2F21743B94B00329FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FactoryMethodPattern/FactoryMethodPattern-Prefix.pch";
+				INFOPLIST_FILE = "FactoryMethodPattern/FactoryMethodPattern-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF9DE2F31743B94B00329FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FactoryMethodPattern/FactoryMethodPattern-Prefix.pch";
+				INFOPLIST_FILE = "FactoryMethodPattern/FactoryMethodPattern-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF9DE2C91743B94B00329FA5 /* Build configuration list for PBXProject "FactoryMethodPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF9DE2EF1743B94B00329FA5 /* Debug */,
+				DF9DE2F01743B94B00329FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF9DE2F11743B94B00329FA5 /* Build configuration list for PBXNativeTarget "FactoryMethodPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF9DE2F21743B94B00329FA5 /* Debug */,
+				DF9DE2F31743B94B00329FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF9DE2C61743B94B00329FA5 /* Project object */;
+}
