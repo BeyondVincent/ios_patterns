@@ -6,8 +6,6 @@
 //  Copyright (c) 2013年 BeyondVincent. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
 @interface BVClient : NSObject
 
 -(void)doSomething;

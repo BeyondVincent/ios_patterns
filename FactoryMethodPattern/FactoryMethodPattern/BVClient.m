@@ -20,12 +20,15 @@
 
 -(void)doSomething
 {
+    // 工厂方法的实例化
     BVShapeFactory *circleShapefactory = [[BVCircleShapeFactory alloc] init];
     BVShapeFactory *squareShapefactory = [[BVSquareShapeFactory alloc] init];
     
+    // 通过工厂方法实例化对应的形状
     BVShape *circleShape = [circleShapefactory factoryMethod];
     BVShape *squareShape = [squareShapefactory factoryMethod];
     
+    // 调用形状的方法
     [circleShape draw];
     [squareShape draw];
 }

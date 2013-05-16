@@ -6,7 +6,6 @@
 //  Copyright (c) 2013年 BeyondVincent. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "BVShape.h"
 
 @interface BVCircleShape : BVShape
